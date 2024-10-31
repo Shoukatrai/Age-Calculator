@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #387478;
+}
+
+h2{
+    padding: 20px;
+    text-shadow: 1px 2px 15px white;
+}
+h1{
+    padding: 10px;
+    margin: 10px;
+    text-shadow: 1px 2px 15px red;
+}
+.age-calculator{
+    padding-top: 10px;
+    background-color: #1E3E62;
+    color: #E2F1E7;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 16px;
+    box-shadow: 1px 2px 5px;
+    height: 400px;
+}
+
+input{
+    width: 60%;
+    margin: 10px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 1px 2px 5px white;
+}
+
+button{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    margin: 20px;
+    width: 30%;
+    border-radius: 30px;
+    outline: none;
+    box-shadow: 1px 2px 5px white;
+    font-size: 20px;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #243642;
+    text-shadow: 1px 2px 5px #243642;
+}
+button:active{
+    background-color: orange;
+    color: white;
+}
+
